@@ -1,7 +1,7 @@
 import time
 import pandas as pd
 import numpy as np
-import lib.createInput2 as input
+import lib.createInput as input
 import lib.rtcOutput as rtOut
 import os
 # os.path.join("/home/accurt/rt_code/snow/")

@@ -3,7 +3,7 @@
 __production_main.py__
 
 ### Runs Production communications
-Daily Functions:
+<ins>Daily Functions:</ins>
 
 * forms.pull_records_from_db()
    * Runs the Funding Forms/Guides

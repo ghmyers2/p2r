@@ -5,7 +5,8 @@ __production_main.py__
 ### Runs Production communications
 Daily Functions:
 
-* forms.pull_records_from_db() (Runs the Funding Forms/Guides)
+* forms.pull_records_from_db()
+*    Runs the Funding Forms/Guides
 * scl.run_selection_con_letter() (Selection Confirmation letters)
 * lof.run_loss_funding() (Loss of Funding)
 * mav_main.mav_auto_begin() (Mav campaigns)

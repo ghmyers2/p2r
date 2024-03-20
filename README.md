@@ -17,32 +17,32 @@ __production_main.py__ - Runs Production communications
   * Process the zip file from SUN for Client Funding Guides
 * daily_mc_update.run()
 
-Wednesday Functions:
+<ins>Wednesday Functions:</ins>
 
 * forms.pull_records_from_db()
    * Runs the Funding Forms/Guides
  
-Thursday Functions:
+<ins>Thursday Functions:</ins>
 
 * forms.pull_records_from_db()
    * Runs the Funding Forms/Guides
 
-Friday Functions:
+<ins>Friday Functions:</ins>
 
 * forms.pull_records_from_db()
    * Runs the Funding Forms/Guides
 
-First of Month Functions:
+<ins>First of Month Functions:</ins>
 
 * forms.pull_records_from_db()
    * Runs the Funding Forms/Guides
 
-First Through Tenth Functions:
+<ins>First Through Tenth Functions:</ins>
 
 * forms.pull_records_from_db()
    * Runs the Funding Forms/Guides
 
-Fifteenth Functions:
+<ins>Fifteenth Functions:</ins>
 
 * forms.pull_records_from_db()
    * Runs the Funding Forms/Guides

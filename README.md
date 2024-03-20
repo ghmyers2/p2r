@@ -19,14 +19,15 @@
 
 <ins>Wednesday Functions:</ins>
 
-* forms.pull_records_from_db()
+* __remail.run()__ - Remail.remail_main
    * Runs the Funding Forms/Guides
  
 <ins>Thursday Functions:</ins>
 
-* forms.pull_records_from_db()
-   * Runs the Funding Forms/Guides
-
+* __u1c.run()__ - AgeIn_U1C.main
+   * U1C Mailing
+* __u1c_ifp.run_ifp_u1c()__ - AgeIn_U1C.ifp_u1c_main
+   * IFP U1C
 <ins>Friday Functions:</ins>
 
 * forms.pull_records_from_db()

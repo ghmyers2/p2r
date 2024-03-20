@@ -28,7 +28,7 @@
    * U1C Mailing
 * __u1c_ifp.run_ifp_u1c()__ - AgeIn_U1C.ifp_u1c_main
    * IFP U1C
-   * 
+
 <ins>Friday Functions:</ins>
 
 * __non_adequate.run()__ - not_adequate.main

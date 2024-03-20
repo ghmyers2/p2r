@@ -64,29 +64,29 @@
 ## __maintenance_main.py__ - Cleans up and deletes files from production
 
 <ins>Daily Functions:</ins>
-* __dc.move_file_older_x(log_dir, log_archive, 5)__ - 
+* __dc.move_file_older_x(log_dir, log_archive, 5)__ - repo.directory_clean_up
   * Clean up log dir
-* __dc.delete_file_older_x(log_dir + 'archive/', 90)__ - 
+* __dc.delete_file_older_x(log_dir + 'archive/', 90)__ - repo.directory_clean_up
   * Delete log files
-* __dc.delete_file_older_x(config.shared_directory['data_file_pickup'] + 'Processed/', 30)__ - 
+* __dc.delete_file_older_x(config.shared_directory['data_file_pickup'] + 'Processed/', 30)__ - repo.directory_clean_up
   * Delete archived log files
-* __sort_ss.sort_ss_rows(sheet_name_or_id='5704624016516996', col_name='Target_DropDate')__ - 
+* __sort_ss.sort_ss_rows(sheet_name_or_id='5704624016516996', col_name='Target_DropDate')__ - repo.smartsheet_repo.sort_rows
   * Sort Smartsht
-* __ss_backup.backup_smartsheet()__ -
+* __ss_backup.backup_smartsheet()__ - smartsheet_api_defs.back_up
   * Back up smartsheet
-* __rsp.delete_pdf_proofs()__ - client_funding_requests.main 
+* __rsp.delete_pdf_proofs()__ - sftp_maintenance.remove_sftp_proofs 
   * Remove pdf proofs from sftp
 
 <ins>Friday Functions:</ins>
-* __sql_update.add_person_id_to_json()__ - 
+* __sql_update.add_person_id_to_json()__ - repo.personId_sql_update
    * pulling person id from pdf name in U1C file
-* __sql_update.update_floats_in_personid_cid()__ - 
+* __sql_update.update_floats_in_personid_cid()__ - repo.personId_sql_update
    * float fix in db
-* __sll.generate_logo_sample_xml()__ - 
+* __sll.generate_logo_sample_xml()__ - smartcom_validations.sc_logo_testing
    * Smartcom logo xml process
 
 <ins>Fifteenth Functions:</ins>
-* __cu.run()__ - 
+* __cu.run()__ - small_coms.clean_up
    * Clean up Small in house Smartsheet
 
 

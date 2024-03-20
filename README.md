@@ -28,10 +28,11 @@
    * U1C Mailing
 * __u1c_ifp.run_ifp_u1c()__ - AgeIn_U1C.ifp_u1c_main
    * IFP U1C
+   * 
 <ins>Friday Functions:</ins>
 
-* forms.pull_records_from_db()
-   * Runs the Funding Forms/Guides
+* __non_adequate.run()__ - not_adequate.main
+   * Not Adequate mailing
 
 <ins>First of Month Functions:</ins>
 

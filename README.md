@@ -3,7 +3,7 @@
 ### __production_main.py__ - Runs Production communications
 
 <ins>Daily Functions:</ins>
-* forms.pull_records_from_db() - funding.welcome_pkts_forms
+* __forms.pull_records_from_db()__ - funding.welcome_pkts_forms
   * Runs the Funding Forms/Guides
 * scl.run_selection_con_letter() - selection_confirmation_letter.selection_confirmation
   * Selection Confirmation letters

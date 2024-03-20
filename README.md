@@ -5,17 +5,17 @@
 <ins>Daily Functions:</ins>
 * __forms.pull_records_from_db()__ - funding.welcome_pkts_forms
   * Runs the Funding Forms/Guides
-* scl.run_selection_con_letter() - selection_confirmation_letter.selection_confirmation
+* __scl.run_selection_con_letter()__ - selection_confirmation_letter.selection_confirmation
   * Selection Confirmation letters
-* lof.run_loss_funding() - loss_of_funding.main
+* __lof.run_loss_funding()__ - loss_of_funding.main
   * Loss of Funding
-* mav_main.mav_auto_begin() - mav.mav_main
+* __mav_main.mav_auto_begin()__ - mav.mav_main
   * Mav campaigns
-* cfr.collect_smartsheet_requests() - client_funding_requests.main
+* __cfr.collect_smartsheet_requests()__ - client_funding_requests.main
   * Requested Client Funding Guides
-* cfr.in_prod_requests() - client_funding_requests.main 
+* __cfr.in_prod_requests()__ - client_funding_requests.main 
   * Process the zip file from SUN for Client Funding Guides
-* daily_mc_update.run() - email_campaigns.daily_mc_update
+* __daily_mc_update.run()__ - email_campaigns.daily_mc_update
 
 <ins>Wednesday Functions:</ins>
 

@@ -19,6 +19,36 @@ Daily Functions:
   * Process the zip file from SUN for Client Funding Guides
 * daily_mc_update.run()
 
+Wednesday Functions:
+
+* forms.pull_records_from_db()
+   * Runs the Funding Forms/Guides
+ 
+Thursday Functions:
+
+* forms.pull_records_from_db()
+   * Runs the Funding Forms/Guides
+
+Friday Functions:
+
+* forms.pull_records_from_db()
+   * Runs the Funding Forms/Guides
+
+First of Month Functions:
+
+* forms.pull_records_from_db()
+   * Runs the Funding Forms/Guides
+
+First Through Tenth Functions:
+
+* forms.pull_records_from_db()
+   * Runs the Funding Forms/Guides
+
+Fifteenth Functions:
+
+* forms.pull_records_from_db()
+   * Runs the Funding Forms/Guides
+
 
 ### Prerequisites
 This code is written in Python3 and depends on the following packages:

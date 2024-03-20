@@ -1,6 +1,6 @@
-## Alfred Schedule
+# Alfred Schedule
 
-### <u> __production_main.py__ - Runs Production communications </u>
+## <u> __production_main.py__ - Runs Production communications </u>
 
 <ins>Daily Functions:</ins>
 * __forms.pull_records_from_db()__ - funding.welcome_pkts_forms
@@ -61,7 +61,7 @@
 * __cert.run_certified_letters()__ - certified_letters.main
    * Monthly Certified letters
 
-### __maintenance_main.py__ - Cleans up and deletes files from production
+## __maintenance_main.py__ - Cleans up and deletes files from production
 
 <ins>Daily Functions:</ins>
 * __dc.move_file_older_x(log_dir, log_archive, 5)__ - 

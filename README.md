@@ -1,28 +1,8 @@
-# Inversion algorithm for polarimeters
+## Production Code
 
-This is a general inversion algorithm designed to work with polarized radiometer measurements implemented in Python. It employs the LMfit optimal estimation scheme to estimate physical parameters from the measurements. 
+__production_main.py__
 
-## Table of Contents
-
-- [Inversion algorithm for polarimeters](#project-title)
-  - [Table of Contents](#table-of-contents)
-  - [Getting Started](#getting-started)
-    - [Prerequisites](#prerequisites)
-    - [Installation](#installation)
-  - [Usage](#usage)
-<!--   - [Contributing](#contributing)  -->
-<!--   - [License](#license)   -->
-  - [Contact](#contact)
-
-## Getting Started
-
-To start, first clone the repository by running: 
-
-`git clone https://github.com/mottavia/snow.git`
-
-Then download, decompress and place the radiative transfer code (rt_code) and the data folder (data) into the code directory. The zip files can be downloaded from the following address: 
-
-* https://drive.google.com/drive/folders/13Mg4x_6n05lxTUS40N9W4kKx2oQsayO0?usp=sharing
+Runs Production communications
 
 ### Prerequisites
 This code is written in Python3 and depends on the following packages:

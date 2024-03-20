@@ -36,20 +36,45 @@
 
 <ins>First of Month Functions:</ins>
 
-* forms.pull_records_from_db()
-   * Runs the Funding Forms/Guides
+* __abds.run()__ - 
+   * Age_in B-day comms monthly mailers includes Opers
+
+* __mf.run()__ - 
+   * Monthly production FSIDs
+
+* __sprt.run_sprint_mo()__ - 
+   * Sprint Share monthly mailer
+
 
 <ins>First Through Tenth Functions:</ins>
 
-* forms.pull_records_from_db()
-   * Runs the Funding Forms/Guides
+* __atmr.run()__ - 
+   * Check for ACH and run beginning of the month
 
 <ins>Fifteenth Functions:</ins>
 
-* forms.pull_records_from_db()
-   * Runs the Funding Forms/Guides
+* __abds.run()__ - 
+   * Age_in B-day comms monthly mailers includes Opers
 
+* __sup.run_supplemental()__ - 
+   * Supplemental
 
+* __lcm.run()__ - 
+   * Last Chance email and print -- being replaced by 1_month, being run in abds.run()
+ 
+* __cfr.post_approved_records_to_vendor()__ - 
+   * FG Sample requests
+
+<ins>Twentieth Functions:</ins>
+
+* __wm.run()__ - 
+   * Welcome communications
+
+<ins>Twentyfifth Functions:</ins>
+
+* __wm.run()__ - 
+   * Welcome communications
+  
 ### Prerequisites
 This code is written in Python3 and depends on the following packages:
 * numpy, scipy, pandas, matplotlib, lmfit, xarray, netCDF4, imageio, fortranformat, eomaps, h5py, shapely, geopy, pytables

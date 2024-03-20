@@ -36,44 +36,44 @@
 
 <ins>First of Month Functions:</ins>
 
-* __abds.run()__ - 
+* __abds.run()__ - AgeIn_b_day_suite.age_in_b_day_main
    * Age_in B-day comms monthly mailers includes Opers
 
-* __mf.run()__ - 
+* __mf.run()__ - monthly_fsid.send_monthly_fsid
    * Monthly production FSIDs
 
-* __sprt.run_sprint_mo()__ - 
+* __sprt.run_sprint_mo()__ - sprint_share.main
    * Sprint Share monthly mailer
 
 
 <ins>First Through Tenth Functions:</ins>
 
-* __atmr.run()__ - 
+* __atmr.run()__ - ACH_transition_email.ach_transition_monthly_run
    * Check for ACH and run beginning of the month
 
 <ins>Fifteenth Functions:</ins>
 
-* __abds.run()__ - 
+* __abds.run()__ - AgeIn_b_day_suite.age_in_b_day_main
    * Age_in B-day comms monthly mailers includes Opers
 
-* __sup.run_supplemental()__ - 
+* __sup.run_supplemental()__ - supplemental.main 
    * Supplemental
 
-* __lcm.run()__ - 
+* __lcm.run()__ - AgeIn_b_day_suite.last_chance_main
    * Last Chance email and print -- being replaced by 1_month, being run in abds.run()
  
-* __cfr.post_approved_records_to_vendor()__ - 
+* __cfr.post_approved_records_to_vendor()__ - client_funding_requests.main
    * FG Sample requests
 
 <ins>Twentieth Functions:</ins>
 
-* __wm.run()__ - 
+* __wm.run()__ - welcome_communication.welcome_main
    * Welcome communications
 
 <ins>Twentyfifth Functions:</ins>
 
-* __wm.run()__ - 
-   * Welcome communications
+* __cert.run_certified_letters()__ - certified_letters.main
+   * Monthly Certified letters
   
 ### Prerequisites
 This code is written in Python3 and depends on the following packages:

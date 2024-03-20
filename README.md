@@ -3,19 +3,19 @@
 ### __production_main.py__ - Runs Production communications
 
 <ins>Daily Functions:</ins>
-* forms.pull_records_from_db()
+* forms.pull_records_from_db() - funding.welcome_pkts_forms
   * Runs the Funding Forms/Guides
-* scl.run_selection_con_letter()
+* scl.run_selection_con_letter() - selection_confirmation_letter.selection_confirmation
   * Selection Confirmation letters
-* lof.run_loss_funding()
+* lof.run_loss_funding() - loss_of_funding.main
   * Loss of Funding
-* mav_main.mav_auto_begin()
+* mav_main.mav_auto_begin() - mav.mav_main
   * Mav campaigns
-* cfr.collect_smartsheet_requests()
+* cfr.collect_smartsheet_requests() - client_funding_requests.main
   * Requested Client Funding Guides
-* cfr.in_prod_requests()
+* cfr.in_prod_requests() - client_funding_requests.main 
   * Process the zip file from SUN for Client Funding Guides
-* daily_mc_update.run()
+* daily_mc_update.run() - email_campaigns.daily_mc_update
 
 <ins>Wednesday Functions:</ins>
 

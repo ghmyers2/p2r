@@ -89,4 +89,63 @@
 * __cu.run()__ - small_coms.clean_up
    * Clean up Small in house Smartsheet
 
+## __email_production_main.py__ - Cleans up and deletes files from production
 
+<ins>Daily Functions:</ins>
+* __av.check_success()__ - repo.automation_verification
+  * Confirms all other main log files have been written
+* __pre.run_2mo()__ - repo.pre_email_repo
+ * 2 Month Age-In Pre-Email campaign
+* __pre.run_7mo()__ - repo.pre_email_repo
+ * 7 Month Age-In Pre-Email campaign
+* __pre.run_3mo()__ - repo.pre_email_repo
+ * 3 Month Age-In Pre-Email campaign
+* __pre.run_4mo()__ - repo.pre_email_repo
+ * 4 Month Age-In Pre-Email campaign
+* __pre.run_2_3mo_post()__ - repo.pre_email_repo
+ * 2 and 3 Month Age-In Post-Email campaign
+
+<ins>Friday Functions:</ins>
+* __arwr.run()__ - ardr_email.ardr_weekly_run
+  * ARDR email production
+
+<ins>Fifteenth Functions:</ins>
+* __aiem.ageIn_6912_Email()__ - AgeIn_b_day_suite.age_in_email_main
+  * ARDR email production
+
+## __reporting_main.py__ - Runs Reporting functions (functions that provide metrics on campaigns)
+
+<ins>Daily Functions:</ins>
+* __ccr.run()__ - salesforce_integration.client_config_reporting
+  * Update Client Implementations in Smartsheet. - Client Implementation Management
+* __mr.run()__ - email_campaigns.mc_reporting
+ * MC Reporting to Smartsheet
+* __ssm.fulfill_pending_requests()__ - ppt_look_up.self_serve.self_serve_main
+ * Participant look up, self serve
+* __nm.run()__ - nonusps.nonusps_main
+ * Imports NON usps files posted from vendor
+* __pcdp.main()__ - participant_communication.ParticipantCommunicationsDataProcessing
+ * Imports data file to [ProdParticipantCommunication]
+* __pre_return.run_presort_return_files()__ - presort_return_mail.presort_main
+ * Return/presort import.
+* __fund_update.run()__ - funding.update_client_fund_ss
+  * Update funding preferences to Smartsheet. - Client_Funding_Status
+* __cert_reporting.usps_reporting_run()__ - certified_reporting.main
+ * USPS status update of certified, returned certified report to DER
+* __mcpm.run_smart_sheet_update()__ - mod_config.mod_config_process_main
+ * Updates segment guids in smartsheet with Salesforce configurations
+* __nm.run()__ - nonusps.nonusps_main
+ * Imports NON usps files posted from vendor
+* __pcdp.main()__ - participant_communication.ParticipantCommunicationsDataProcessing
+ * Imports data file to [ProdParticipantCommunication]
+* __pre_return.run_presort_return_files()__ - presort_return_mail.presort_main
+ * Return/presort import.
+
+
+<ins>Friday Functions:</ins>
+* __arwr.run()__ - ardr_email.ardr_weekly_run
+  * ARDR email production
+
+<ins>Fifteenth Functions:</ins>
+* __aiem.ageIn_6912_Email()__ - AgeIn_b_day_suite.age_in_email_main
+  * ARDR email production

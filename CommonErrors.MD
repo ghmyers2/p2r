@@ -24,3 +24,5 @@ df = pd.read_csv(original_txt, delimiter=delimiter, encoding=original_encod)
 or
 
 with open(path_file, 'r', encoding=current_encod) as objfile:
+
+## Timeout Error

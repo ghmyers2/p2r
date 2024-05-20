@@ -1,6 +1,6 @@
 # Common Errors
 
-## Bad Character Encoding
+## Bad Character Encoding Error
 
 <ins>Error Message:</ins>
 'charmap' codec can't decode byte 0x81 in position 41445

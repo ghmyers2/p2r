@@ -14,19 +14,26 @@ df = pd.read_csv(original_txt, delimiter=delimiter)
 
 or
 
+`
 with open(path_file, 'r') as objfile:
+`
 
 <ins>Useful Code for Fix:</ins>
 The __return_file_encoding()__ function in the __repo.file_encode_detect__ file returns the encoding of a given file. To fix the encoding error, we pass the encoding of the given file into the above code as:
 
+`
 original_encod = encod.return_file_encoding(original_txt)
 
 df = pd.read_csv(original_txt, delimiter=delimiter, encoding=original_encod)
+`
 
 or
 
-with open(path_file, 'r', encoding=current_encod) as objfile:
+`
+current_encod = encod.return_file_encoding(path_file)
 
+with open(path_file, 'r', encoding=current_encod) as objfile:
+`
 ## NULL/Null/None Name
 
 <ins>Error Message:</ins>
@@ -45,6 +52,8 @@ When data files which contain names like 'Null' or 'None' are read into automati
 <ins>Useful Code for Fix:</ins>
 After the data has been read into a dataframe, the none values can be converted to the string of "None" with the following code:
 
+`
 column_to_update = 'lastName'
 
 df[column_to_update] = df[column_to_update].apply(lambda x: "None" if x is None else x)
+`

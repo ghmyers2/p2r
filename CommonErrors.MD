@@ -38,7 +38,7 @@ current_encod = encod.return_file_encoding(path_file)
 `
 with open(path_file, 'r', encoding=current_encod) as objfile:
 `
-## NULL/Null/None Name
+## Null/None Name
 
 <ins>Error Message:</ins>
 

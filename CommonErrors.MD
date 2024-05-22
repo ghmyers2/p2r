@@ -23,7 +23,6 @@ The __return_file_encoding()__ function in the __repo.file_encode_detect__ file 
 
 ``
 original_encod = encod.return_file_encoding(original_txt)
-
 df = pd.read_csv(original_txt, delimiter=delimiter, encoding=original_encod)
 ``
 

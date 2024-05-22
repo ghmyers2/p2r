@@ -25,4 +25,24 @@ or
 
 with open(path_file, 'r', encoding=current_encod) as objfile:
 
-## Timeout Error
+## NULL/Null/None Name
+
+<ins>Error Message:</ins>
+
+Possible Error in Automation (when the last name was None):
+
+
+
+Possible Error in SmartComms (when the last name was None):
+
+Error: [4078] An error occurred while evaluating the expression 'CurrentParticipant.lastNameFormatted': com.thunderhead.core.exception.LocalisableException: [27032] Error in derived property 'Participant.lastNameFormatted': java.lang.StringIndexOutOfBoundsException: begin 0, end 1, length 0
+
+<ins>Usual Cause of Error in Code:</ins>
+When data files which contain names like 'Null' or 'None' are read into automation as a dataFrame, Pandas typically converts the names to the None object in Python (not the strings 'Null' or 'None'). Empty values can cause errors when uploaded to Smartcomms, for instance, as shown above.
+
+<ins>Useful Code for Fix:</ins>
+After the data has been read into a dataframe, the none values can be converted to the string of "None" with the following code:
+
+column_to_update = 'lastName'
+
+df[column_to_update] = df[column_to_update].apply(lambda x: "None" if x is None else x)

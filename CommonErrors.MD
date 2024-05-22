@@ -8,9 +8,9 @@
 <ins>Usual Cause of Error in Code:</ins>
 When files contain 'bad characters' (e.g. Estée Lauder or Nestlé), these characters are saved within a data file with a certain encoding. The data file is opened within the automation, potentially with the following code snipits:
 
-'''
+''''
 df = pd.read_csv(original_txt, delimiter=delimiter)
-'''
+''''
 
 or
 

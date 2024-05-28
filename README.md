@@ -134,18 +134,24 @@
  * USPS status update of certified, returned certified report to DER
 * __mcpm.run_smart_sheet_update()__ - mod_config.mod_config_process_main
  * Updates segment guids in smartsheet with Salesforce configurations
-* __nm.run()__ - nonusps.nonusps_main
- * Imports NON usps files posted from vendor
-* __pcdp.main()__ - participant_communication.ParticipantCommunicationsDataProcessing
- * Imports data file to [ProdParticipantCommunication]
-* __pre_return.run_presort_return_files()__ - presort_return_mail.presort_main
- * Return/presort import.
+* __mcpm.run_sql_update()__ - mod_config.mod_config_process_main
+ * Updates SQL tables with guid configs collected from Smartsheet
+* __ncoa.populate_ncoa_tables()__ - NCOA_reports.ncoa_reports
+ * Updates NCOA report SQL tables with information gained from those table
+* __email_validations.run_db_updates()__ - NCOA_reports.email_validations
+ * Updates DB from MC and ZB email validations
 
 
-<ins>Friday Functions:</ins>
-* __arwr.run()__ - ardr_email.ardr_weekly_run
-  * ARDR email production
-
-<ins>Fifteenth Functions:</ins>
-* __aiem.ageIn_6912_Email()__ - AgeIn_b_day_suite.age_in_email_main
-  * ARDR email production
+<ins>Monday Functions:</ins>
+* __wcr.create_weekly_comm_report()__ - weekly_comm_reporting.main
+  * Creates weekly com report
+* __mc_unsub.run()__ - repo.mail_chimp_api.mailchimp_clicks_unsubs_actions
+  * Pulls clicks, opens, and unsubs from MC folders for MAV, Groove, Age-in, and Discover
+ * __csm_report.run()__ - csm_client_reporting.CSM_Database_To_File
+  * Runs non-mailable report by client, posts to Shared drive
+ 
+<ins>First of Month Functions:</ins>
+* __ar_reporting.run_ar_reporting()__ - AR_monthly_reporting.main
+  * Emails AR postcard count to FND team
+* __amr.run_clients()__ - age_in_monthly_reporting.main
+  * Emails previous month's age in counts for specified clients

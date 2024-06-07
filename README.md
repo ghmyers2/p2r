@@ -95,15 +95,15 @@
 * __av.check_success()__ - repo.automation_verification
   * Confirms all other main log files have been written
 * __pre.run_2mo()__ - repo.pre_email_repo
- * 2 Month Age-In Pre-Email campaign
+  * 2 Month Age-In Pre-Email campaign
 * __pre.run_7mo()__ - repo.pre_email_repo
- * 7 Month Age-In Pre-Email campaign
+  * 7 Month Age-In Pre-Email campaign
 * __pre.run_3mo()__ - repo.pre_email_repo
- * 3 Month Age-In Pre-Email campaign
+  * 3 Month Age-In Pre-Email campaign
 * __pre.run_4mo()__ - repo.pre_email_repo
- * 4 Month Age-In Pre-Email campaign
+  * 4 Month Age-In Pre-Email campaign
 * __pre.run_2_3mo_post()__ - repo.pre_email_repo
- * 2 and 3 Month Age-In Post-Email campaign
+  * 2 and 3 Month Age-In Post-Email campaign
 
 <ins>Friday Functions:</ins>
 * __arwr.run()__ - ardr_email.ardr_weekly_run

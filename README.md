@@ -119,27 +119,27 @@
 * __ccr.run()__ - salesforce_integration.client_config_reporting
   * Update Client Implementations in Smartsheet. - Client Implementation Management
 * __mr.run()__ - email_campaigns.mc_reporting
- * MC Reporting to Smartsheet
+  * MC Reporting to Smartsheet
 * __ssm.fulfill_pending_requests()__ - ppt_look_up.self_serve.self_serve_main
- * Participant look up, self serve
+  * Participant look up, self serve
 * __nm.run()__ - nonusps.nonusps_main
- * Imports NON usps files posted from vendor
+  * Imports NON usps files posted from vendor
 * __pcdp.main()__ - participant_communication.ParticipantCommunicationsDataProcessing
- * Imports data file to [ProdParticipantCommunication]
+  * Imports data file to [ProdParticipantCommunication]
 * __pre_return.run_presort_return_files()__ - presort_return_mail.presort_main
- * Return/presort import.
+  * Return/presort import.
 * __fund_update.run()__ - funding.update_client_fund_ss
   * Update funding preferences to Smartsheet. - Client_Funding_Status
 * __cert_reporting.usps_reporting_run()__ - certified_reporting.main
- * USPS status update of certified, returned certified report to DER
+  * USPS status update of certified, returned certified report to DER
 * __mcpm.run_smart_sheet_update()__ - mod_config.mod_config_process_main
- * Updates segment guids in smartsheet with Salesforce configurations
+  * Updates segment guids in smartsheet with Salesforce configurations
 * __mcpm.run_sql_update()__ - mod_config.mod_config_process_main
- * Updates SQL tables with guid configs collected from Smartsheet
+  * Updates SQL tables with guid configs collected from Smartsheet
 * __ncoa.populate_ncoa_tables()__ - NCOA_reports.ncoa_reports
- * Updates NCOA report SQL tables with information gained from those table
+  * Updates NCOA report SQL tables with information gained from those table
 * __email_validations.run_db_updates()__ - NCOA_reports.email_validations
- * Updates DB from MC and ZB email validations
+  * Updates DB from MC and ZB email validations
 
 
 <ins>Monday Functions:</ins>
